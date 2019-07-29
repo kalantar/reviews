@@ -17,7 +17,7 @@ Created from [the source of the Istio sample Bookinfo service reviews](https://g
     - Determine if ratings are enabled by the star color; the color `none` means ratings are not enabled
     - Introduce an optional 5s delay when the star color is yellow (allowing for a simple way to produce a slow version).
 
-This modified code was used to produce 4 versions available from [dockerhub](https://cloud.docker.com/u/iter8/repository/docker/iter8/reviews):
+This modified code was used to produce four (4) versions available from [dockerhub](https://cloud.docker.com/u/iter8/repository/docker/iter8/reviews):
 
 - `iter8/reviews:istio-v1` - color set to `none`
 - `iter8/reviews:istio-v2` - color set to `black`
