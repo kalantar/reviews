@@ -1,0 +1,5 @@
+load-url: istio-ingress/productpage
+load-duration: 480
+load-frequency: 0.1
+test-duration: 600
+test-frequency: 10
