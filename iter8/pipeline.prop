@@ -1,4 +1,6 @@
-load-url: istio-ingress/productpage
+app-host: bookinfo.NAMESPACE
+app-port: 80
+app-path: productpage
 load-duration: 480
 load-frequency: 0.1
 test-duration: 600
