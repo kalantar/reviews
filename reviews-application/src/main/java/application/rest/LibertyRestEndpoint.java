@@ -33,7 +33,7 @@ import javax.ws.rs.client.ResponseProcessingException;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.Application;
 import javax.ws.rs.core.MediaType;
-emport javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response;
 
 @Path("/")
 public class LibertyRestEndpoint extends Application {
