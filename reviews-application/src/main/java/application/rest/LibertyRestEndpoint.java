@@ -38,7 +38,7 @@ import javax.ws.rs.core.Response;
 @Path("/")
 public class LibertyRestEndpoint extends Application {
 
-    private final static String star_color = "red";
+    private final static String star_color = "blue";
     private final static String services_domain = System.getenv("SERVICES_DOMAIN") == null ? "" : ("." + System.getenv("SERVICES_DOMAIN"));
     private final static String ratings_hostname = System.getenv("RATINGS_HOSTNAME") == null ? "ratings" : System.getenv("RATINGS_HOSTNAME");
     private final static String ratings_service = "http://" + ratings_hostname + services_domain + ":9080/ratings";
