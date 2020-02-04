@@ -4,7 +4,7 @@ ADD --chown=gradle . /home/gradle/project
 WORKDIR /home/gradle/project
 RUN gradle clean build
 
-FROM websphere-liberty:javaee8-java11
+FROM websphere-liberty:19.0.0.9-javaee8-java11
 
 USER root
 RUN apt-get update && apt-get upgrade -y && apt-get dist-upgrade
