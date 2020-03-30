@@ -23,3 +23,6 @@ spec:
         toleranceType: threshold
         tolerance: 0.2
         sampleSize: 5
+        min_max:
+          min: 0.0
+          max: 20.0
