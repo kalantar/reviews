@@ -11,7 +11,7 @@ spec:
     baseline: reviews-v1
     candidate: reviews-v2
   trafficControl:
-    strategy: optimistic_bayesian_routing
+    strategy: posterior_bayesian_routing
     interval: 30s
     maxIterations: 8
     maxTrafficPercentage: 95
