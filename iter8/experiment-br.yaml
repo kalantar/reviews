@@ -11,11 +11,11 @@ spec:
     baseline: reviews-v1
     candidate: reviews-v2
   trafficControl:
-    strategy: check_and_increment
+    strategy: optimistic_bayesian_routing
     interval: 30s
-    trafficStepSize: 20
     maxIterations: 8
-    maxTrafficPercentage: 80
+    maxTrafficPercentage: 95
+    confidence: 0.98
   analysis:
     analyticsService: "http://iter8-analytics.iter8"
     successCriteria:
