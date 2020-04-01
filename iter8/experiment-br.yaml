@@ -13,9 +13,9 @@ spec:
   trafficControl:
     strategy: posterior_bayesian_routing
     interval: 30s
-    maxIterations: 8
-    maxTrafficPercentage: 95
-    confidence: 0.98
+    maxIterations: 9
+    maxTrafficPercentage: 90
+    confidence: 0.95
   analysis:
     analyticsService: "http://iter8-analytics.iter8"
     successCriteria:

@@ -13,9 +13,9 @@ spec:
   trafficControl:
     strategy: check_and_increment
     interval: 30s
-    trafficStepSize: 20
-    maxIterations: 8
-    maxTrafficPercentage: 80
+    trafficStepSize: 10
+    maxIterations: 9
+    maxTrafficPercentage: 90
   analysis:
     analyticsService: "http://iter8-analytics.iter8"
     successCriteria:
