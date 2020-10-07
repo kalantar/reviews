@@ -33,7 +33,7 @@ spec:
         app: reviews
         version: v2
     spec:
-      serviceAccount: bookinfo-reviews
+      serviceAccountName: bookinfo-reviews
       containers:
       - name: reviews
         image: iter8/reviews
